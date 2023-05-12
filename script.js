@@ -23,7 +23,10 @@ addBtn.onclick = () => {
     containerDiv.appendChild(cBox)
 } 
     impTask.onclick = () => {
-        display.style.backgroundColor = '#a50000'
+        display.style.display = 'none'
+        checkString.style.display = 'none'
+        impTask.style.display = 'none'
+        cBox.style.display = 'none'
     }
 
     cBox.addEventListener('change', function() {
