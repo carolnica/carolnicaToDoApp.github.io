@@ -1,0 +1,117 @@
+
+body {
+    background-color: rgb(205, 205, 205);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.stringText {
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #f2c900;
+    box-shadow: 0px 0px 4px 0.3px #000;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.cBox {
+    position: absolute;
+    margin-top: -48px;
+    margin-left: 200px;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cBox:checked {
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+#cargo {
+    margin-top: 10vh;
+}
+
+#todo {
+    width: 150px;
+    height: 20px;
+    background-color: #eee;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.add-clear {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.add-clear:active {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.title {
+    margin-left: 75px;
+}
+
+.header {
+    font-size: 16px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.disclaimer {
+    color: red;
+}
+
+#container {
+    width: 230px;
+    height: 100vh;
+}
+
+.impTask {
+    position: absolute;
+    margin-top: -48px;
+    margin-left: -25px;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3.5px;
+    padding-right: 6px;
+    box-shadow: 0px 0px 4px 0.3px #000;
+}
+
+.impTask:active {
+    background-color: #fff;
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+input[type=checkbox] {
+    appearance: none;
+}
